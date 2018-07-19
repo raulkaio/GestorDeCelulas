@@ -29,7 +29,6 @@
             android:theme="@style/AppNoActionBarTheme"></activity>
         <activity
             android:name=".TelaPrincipal"
-            android:label="@string/title_activity_tela_principal"
             android:screenOrientation="portrait"
             android:theme="@style/AppNoActionBarTheme"></activity>
     </application>
