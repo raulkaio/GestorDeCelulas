@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login"
+    android:background="@drawable/bg_splash">
+
+    <LinearLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.AppCompatImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/logo_gestor_de_celulas" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/santral"
+            android:text="@string/nome_aplicativo"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/buttonLogarComFacebook"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/santral"
+            android:text="Logar com Facebook"
+            android:drawableLeft="@drawable/ic_logo_facebook"
+            android:textAllCaps="false"
+            style="@style/buttonLogarCriarConta"
+            android:background="@drawable/bg_button_login_facebook"
+            android:layout_marginTop="16dp"/>
+
+        <Button
+            android:id="@+id/buttonLogarComGmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/santral"
+            android:text="Logar com Gmail"
+            android:drawableLeft="@drawable/ic_logo_gmail"
+            android:textAllCaps="false"
+            style="@style/buttonLogarCriarConta"
+            android:background="@drawable/bg_button_login_gmail"/>
+
+        <Button
+            android:id="@+id/buttonLogarComEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/santral"
+            android:text="Logar com E-mail"
+            android:textAllCaps="false"
+            style="@style/buttonLogarCriarConta"
+            android:background="@drawable/bg_button_login_email"/>
+
+        <Button
+            android:id="@+id/buttonCriarConta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/santral"
+            android:text="Não possui login? Crie uma conta"
+            android:textAllCaps="false"
+            style="@style/buttonLogarCriarConta"
+            android:background="@drawable/bg_button_link"/>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

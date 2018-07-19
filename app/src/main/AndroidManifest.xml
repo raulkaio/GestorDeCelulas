@@ -9,13 +9,29 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Splash">
+        <activity
+            android:name=".Splash"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppNoActionBarTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".Login"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppNoActionBarTheme"></activity>
+        <activity
+            android:name=".CriaConta"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppNoActionBarTheme"></activity>
+        <activity
+            android:name=".TelaPrincipal"
+            android:label="@string/title_activity_tela_principal"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppNoActionBarTheme"></activity>
     </application>
 
 </manifest>

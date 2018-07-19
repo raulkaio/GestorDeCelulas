@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item android:title="Cadastro">
+        <menu>
+            <item
+                android:id="@+id/nav_nova_celula"
+                android:icon="@drawable/ic_celula"
+                android:title="Nova célula" />
+        </menu>
+    </item>
+    <item android:title="Relatórios">
+        <menu>
+            <item
+                android:id="@+id/nav_relatorio_encontro"
+                android:icon="@drawable/ic_encontro"
+                android:title="Quem chamar para o Encontro" />
+            <item
+                android:id="@+id/nav_relatorio_batismo"
+                android:icon="@drawable/ic_batismo"
+                android:title="Quem chamar para o Batismo" />
+            <item
+                android:id="@+id/nav_relatorio_aniversariantes"
+                android:icon="@drawable/ic_calendario"
+                android:title="Aniversariantes do mês" />
+        </menu>
+    </item>
+
+</menu>
